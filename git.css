@@ -4,16 +4,16 @@ h1{
   font-weight:bold;
   color:DarkSeaGreen  ;
 }
-.collect{
-  font-family: Helvetica;
-  font-size: 15pt;
-  font-weight:bold;
-  color:DarkSeaGreen  ;
-}
 body{
   background:dimgrey;
 }
 p{
+  color:DarkSeaGreen;
+}
+.gitpic{
+  position:absolute;
+  left:75%;
+  top:0;
   color:DarkSeaGreen;
 }
 /* Dropdown Button */
