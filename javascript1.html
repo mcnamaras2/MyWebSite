@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html><head>
+<title>
+Javascript/CSS Canvas
+</title><link rel="stylesheet" type="text/css" href="style1.css"></head>
+<body>
+  <nav>  <div class="dropdown">
+  <button class="dropbtn"><a href="index.html">Home</a></button>
+  </div>
+</div>
+    <div class="dropdown">
+  <button class="dropbtn">Web Development</button>
+  <div class="dropdown-content">
+    <a href="#">CSS</a>
+    <a href="javascript1.html">JavaScript</a>
+    <a href="#">Ruby</a>
+  </div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">3D Printing</button>
+<div class="dropdown-content">
+  <a href="#">Design</a>
+  <a href="#">Printers</a>
+  <a href="#">Printed Objects</a>
+</div>
+</div>
+ <div class="dropdown">
+<button class="dropbtn">Electronics</button>
+<div class="dropdown-content">
+  <a href="#">Integrated Circuits</a>
+  <a href="#">Programming</a>
+</div>
+</div>
+</nav>
+
+<h1><font color='skyblue'>JavaScript-Cavas Drawing</font> </h1>
+<body style="background-color:Dimgrey;">
+<font color='skyblue'>
+<div id='controls'>
+<output id='scaleOutput'>1.0 </output> &nbsp;<input id='slider_value' type='range' min='1' max='5.0' step='0.01' value='1.0'/> Scale the Shape!
+</div>
+<!-- Make a square to draw in, called a canvas -->
+<canvas id="mainCanvas" width="800" height="600" ></canvas>
+
+ <div id="container">
+<!-- Inner Shape Color -->
+     <b> Select Color to change Shape:</b>
+    <select id="polygon_color">
+   <option value="white">WHITE</option>
+   <option value="#F4D03F">YELLOW</option>
+   <option value="skyblue">BLUE</option>
+   <option value="#00FF00">GREEN</option>
+   </select><br>
+
+<!-- Canvas Color setting -->
+    <br><b> Select Color to change Background: Note! This will reset all settings</b>
+    <select id="backgd_color">
+   <option value="white">WHITE</option>
+   <option value="#E74C3C">RED</option>
+   <option value="skyblue">BLUE</option>
+   <option value="#00FF00">GREEN</option>
+   </select>
+
+<!-- Change Shape -->
+   <br><br><b>Select a new shape:</b>
+    <select id="shape">
+   <option value="Polygon">POLYGON</option>
+   <option value="Circle">CIRCLE</option>
+   <option value="Rectangle">RECTANGLE</option>
+   <option value="Semicircle">SEMICIRCLE</option>
+   </select>
+   </div></font><br>
+<script type="text/javascript" src="javascripts1.js"></script>
+</body>
+</html>​
