@@ -2,23 +2,38 @@ h1{
   font-family: Helvetica;
   font-size:20pt;
   font-weight:bold;
-  color:DarkSeaGreen  ;
+  color:LightSteelBlue  ;
+  position:absolute;
+  left:75%;
+  top:0;
+
 }
 .collect{
   font-family: Helvetica;
   font-size: 15pt;
   font-weight:bold;
   color:DarkSeaGreen  ;
+  position:absolute;
+  left:75%;
+  top:50px;
+}
+nav{
+  position:relative;
+  left: 70%;
+  top:100px;
 }
 body{
-  background:dimgrey;
+  background-image:url(technology-798619_1280.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 p{
   color:DarkSeaGreen;
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: LightSteelBlue ;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -37,7 +52,6 @@ p{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -51,7 +65,7 @@ p{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color:DarkGray }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -60,5 +74,18 @@ p{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: LightSlateGray ;
+}
+@media only screen and (max-width:480px)
+{
+  h1{
+    left:0;
+  }
+  nav{
+    left:0;
+    width:10px;
+    height:30%;
+    display:inline;
+
+  }
 }

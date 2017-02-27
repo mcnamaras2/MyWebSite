@@ -1,16 +1,26 @@
 body{
-  background-image:url(paper2.jpg) ;
-  color:SlateBlue;
-  max-width:100%;
+  background-image:url(brick2.jpg);
+
 }
-#controls{
-  position:relative;
-  left:50%;
-  font-size:25px;
-  color:SlateBlue;
+h2{
+  font-family: Helvetica;
+  font-size:20pt;
+  font-weight:bold;
+  color:White;
+text-align: center
 }
-#mainCanvas{
-  position:;
+#myCanvas{
+     padding: 0;
+     background-color: #eee;
+     display: block;
+     margin: 0 auto;
+}
+#start{
+  position: absolute;
+  left:45%;
+}
+#reset{
+  position: absolute;
   left:50%;
 }
 /* Dropdown Button */

@@ -262,6 +262,7 @@ var rect = canvas.getBoundingClientRect();
   context.setTransform(1, 0, 0, 1, 0, 0);
 // get mouse X, Y position
 
+
 canvasClear();
 context.translate(T1, T2);
 

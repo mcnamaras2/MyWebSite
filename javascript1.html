@@ -2,7 +2,8 @@
 <html><head>
 <title>
 Javascript/CSS Canvas
-</title><link rel="stylesheet" type="text/css" href="javascript1.css"></head>
+</title><link rel="stylesheet" type="text/css" href="javascript1.css">
+</head>
 <body>
   <nav>  <div class="dropdown">
   <button class="dropbtn"><a href="index.html">Home</a></button>
@@ -13,7 +14,6 @@ Javascript/CSS Canvas
   <div class="dropdown-content">
     <a href="#">CSS</a>
     <a href="javascript1.html">JavaScript</a>
-    <a href="#">Ruby</a>
   </div>
 </div>
 <div class="dropdown">
@@ -32,27 +32,31 @@ Javascript/CSS Canvas
 </div>
 </div>
 <div class="dropdown">
-<button class="dropbtn"><a href="git.html">Git</a></button>
+<button class="dropbtn"><a href="https://github.com/mcnamaras2/MyWebSite"target="_blank">Git</a></button>
+</div>
+<div class="dropdown">
+<button class="dropbtn">More Javascript work</button>
+<div class="dropdown-content">
+<a href="#">Javascript 1-Canvas Drawing</a>
+<a href="javascript2.html">JavaScript 2-Brick Breaker</a>
 </div>
 </nav>
 
-<h1><font color='skyblue'>JavaScript-Cavas Drawing</font> </h1>
-<body style="background-color:Dimgrey;">
-<font color='skyblue'>
+<h1>JavaScript-Cavas Drawing</h1>
 <div id='controls'>
 <output id='scaleOutput'>1.0 </output> &nbsp;<input id='slider_value' type='range' min='1' max='5.0' step='0.01' value='1.0'/> Scale the Shape!
 </div>
 <!-- Make a square to draw in, called a canvas -->
-<canvas id="mainCanvas" width="800" height="600" ></canvas>
+<canvas id="mainCanvas" width="500" height="500" ></canvas>
 
  <div id="container">
 <!-- Inner Shape Color -->
-     <b> Select Color to change Shape:</b>
+     <b> Select to change color of your shape:</b>
     <select id="polygon_color">
    <option value="white">WHITE</option>
    <option value="#F4D03F">YELLOW</option>
    <option value="skyblue">BLUE</option>
-   <option value="#00FF00">GREEN</option>
+   <option value="#90EE90">GREEN</option>
    </select><br>
 
 <!-- Canvas Color setting -->
@@ -61,7 +65,7 @@ Javascript/CSS Canvas
    <option value="white">WHITE</option>
    <option value="#E74C3C">RED</option>
    <option value="skyblue">BLUE</option>
-   <option value="#00FF00">GREEN</option>
+   <option value="#90EE90">GREEN</option>
    </select>
 
 <!-- Change Shape -->
