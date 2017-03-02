@@ -37,23 +37,16 @@ html, body {
 .bar{
   height:200px;
   width:100%;
-    background-color:LightSteelBlue ;
+    background-color:LightSteelBlue;
     z-index: 10;
-    border-left:600rem LightSteelBlue ;
-    border-right:600rem LightSteelBlue ;
+    border-left:600rem LightSteelBlue;
+    border-right:600rem LightSteelBlue;
 }
 #mainstuff{
   position:absolute;
-  left:40%;
+  left:550px;
   top:225px;
   color:black;
-  font-family: Helvetica;
-  font-size: 30pt;
-}
-.web{
-  position: relative;
-  top:-20px;
-  left:-20%;
 }
 nav{
   position:absolute;
