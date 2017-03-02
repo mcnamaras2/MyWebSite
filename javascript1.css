@@ -5,13 +5,14 @@ body{
 }
 #controls{
   position:relative;
-  left:50%;
+  left:0%;
   font-size:25px;
   color:SlateBlue;
 }
 #mainCanvas{
-  position:;
-  left:50%;
+  position:relative;
+  left:0%;
+  top: 20%;
 }
 /* Dropdown Button */
 .dropbtn {
