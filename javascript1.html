@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html><head>
-<title>
-Javascript/CSS Canvas
-</title><link rel="stylesheet" type="text/css" href="javascript1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Shane McNamara</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="icon" type="image/png" href="C:\cygwin64\home\mcnamaras2\MySite\spade-710847_1920.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <nav>  <div class="dropdown">
-  <button class="dropbtn"><a href="index.html">Home</a></button>
+<nav class="navbar navbar-inverse navbar-static-top">
+<div class="container-fluid">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Shane McNamara</a>
   </div>
-</div>
-    <div class="dropdown">
-  <button class="dropbtn">Web Development</button>
-  <div class="dropdown-content">
-    <a href="javascript1.html">JavaScript</a>
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="about.html" class="about">About</a></li>
+    </ul>
   </div>
-</div>
-<div class="dropdown">
-<button class="dropbtn"><a href="https://github.com/mcnamaras2/MyWebSite"target="_blank">Git</a></button>
-</div>
-<div class="dropdown">
-<button class="dropbtn">More Javascript work</button>
-<div class="dropdown-content">
-<a href="#">Javascript 1-Canvas Drawing</a>
-<a href="javascript2.html">JavaScript 2-Brick Breaker</a>
 </div>
 </nav>
-
-<h1>JavaScript-Cavas Drawing</h1>
-<div id='controls'>
-<output id='scaleOutput'>1.0 </output> &nbsp;<input id='slider_value' type='range' min='1' max='3.0' step='0.01' value='1.0'/> Scale the Shape!
 </div>
-<!-- Make a square to draw in, called a canvas -->
-<canvas id="mainCanvas" width="300" height="300" ></canvas>
+<div class="container things">
+  <div class="row info">
+<div class="col-sm-4 align="center" script1">
+  <h1>JavaScript-Cavas Drawing</h1>
+  <div id='controls'>
+  <output id='scaleOutput'>1.0 </output> &nbsp;<input id='slider_value' type='range' min='1' max='3.0' step='0.01' value='1.0'/> Scale the Shape!
+  </div>
+  <!-- Make a square to draw in, called a canvas -->
+  <canvas id="mainCanvas" width="300" height="300" ></canvas>
 
- <div id="container">
-<!-- Inner Shape Color -->
-     <b> Select to change color of your shape:</b>
-    <select id="polygon_color">
-   <option value="white">WHITE</option>
-   <option value="#F4D03F">YELLOW</option>
-   <option value="skyblue">BLUE</option>
-   <option value="#90EE90">GREEN</option>
-   </select><br>
+   <div id="container">
+  <!-- Inner Shape Color -->
+       <b> Select to change color of your shape:</b>
+      <select id="polygon_color">
+     <option value="white">WHITE</option>
+     <option value="#F4D03F">YELLOW</option>
+     <option value="skyblue">BLUE</option>
+     <option value="#90EE90">GREEN</option>
+     </select><br>
 
-<!-- Canvas Color setting -->
-    <br><b> Select Color to change Background: Note! This will reset all settings</b>
-    <select id="backgd_color">
-   <option value="white">WHITE</option>
-   <option value="#E74C3C">RED</option>
-   <option value="skyblue">BLUE</option>
-   <option value="#90EE90">GREEN</option>
-   </select>
+  <!-- Canvas Color setting -->
+      <br><b> Select Color to change Background: Note! This will reset all settings</b>
+      <select id="backgd_color">
+     <option value="white">WHITE</option>
+     <option value="#E74C3C">RED</option>
+     <option value="skyblue">BLUE</option>
+     <option value="#90EE90">GREEN</option>
+     </select>
 
-<!-- Change Shape -->
-   <br><br><b>Select a new shape:</b>
-    <select id="shape">
-   <option value="Polygon">POLYGON</option>
-   <option value="Circle">CIRCLE</option>
-   <option value="Rectangle">RECTANGLE</option>
-   <option value="Semicircle">SEMICIRCLE</option>
-   </select>
-   </div></font><br>
+  <!-- Change Shape -->
+     <br><br><b>Select a new shape:</b>
+      <select id="shape">
+     <option value="Polygon">POLYGON</option>
+     <option value="Circle">CIRCLE</option>
+     <option value="Rectangle">RECTANGLE</option>
+     <option value="Semicircle">SEMICIRCLE</option>
+     </select>
+     </div></font><br>
+</div>
+</div>
+</div>
 <script type="text/javascript" src="javascripts1.js"></script>
 </body>
 </html>​
